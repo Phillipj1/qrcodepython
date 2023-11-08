@@ -2,7 +2,7 @@ import qrcode
 from PIL import Image
 ##QR code "https://www.skytre3d.com/"
 
-data = "https://www.skytre3d.com/"
+data = "Website name"
 
 qr = qrcode.QRCode(
     version=1,     # specifies the QR code version (1 to 40).
