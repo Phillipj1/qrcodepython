@@ -15,7 +15,7 @@ pip install qrcode[pil]
 import qrcode
 from PIL import Image
 
-Create the QR code data by specifying the information you want to encode in the QR code. For example, a website URL:
+##Create the QR code data by specifying the information you want to encode in the QR code. For example, a website URL:
 
 data = "Name of the website.com"
 
@@ -32,7 +32,7 @@ qr.make(fit=True)
 
 qr_img = qr.make_image(fill_color="black", back_color="white")
 
-Save the QR code as an image by specifying the desired file path:
+##Save the QR code as an image by specifying the desired file path:
 
 image_path = "my_qr_code.png"
 qr_img.save(image_path)
